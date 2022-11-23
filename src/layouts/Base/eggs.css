@@ -1,0 +1,65 @@
+/* v1.0.0
+Lyttle Eggs ~ Fun jokes for developers 😌
+https://github.com/Stualyttle/LyttleTools/blob/main/CSS/eggs.css
+*/
+
+@media (max-width: 200px) {
+    #root {
+        display: none !important;
+    }
+
+    * {
+        background-color: black !important;
+    }
+
+    body:before {
+        font-size: 4vh;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        display: block;
+        width: 90vh;
+        padding-left: 20%;
+        content: "You tried! 😌";
+        transform: rotate(90deg) translateY(50%);
+        transform-origin: 0 60%;
+        white-space: nowrap;
+        color: white;
+    }
+}
+
+@media (max-width: 150px) {
+    body:before {
+        content: "Still going? 😡";
+    }
+}
+
+@media (max-width: 120px) {
+    body:before {
+        content: "Why even? 😢";
+    }
+}
+
+@media (max-width: 90px) {
+    body:before {
+        content: "Wait what? 😮";
+    }
+}
+
+@media (max-width: 60px) {
+    body:before {
+        content: "Not going to stop are you? 😒";
+    }
+}
+
+@media (max-width: 50px) {
+    body:before {
+        content: "Why even? There's noting here! 🥱";
+    }
+}
+
+@media (max-width: 30px) {
+    body:before {
+        content: "Ok Fine... you win, you found them all! 🥳";
+    }
+}
